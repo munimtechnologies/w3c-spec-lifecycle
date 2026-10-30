@@ -60,18 +60,18 @@ P1-P3.
   2017-2021 starters. The share still a Working Draft rose from 32.6% to 52.9%.
 - 146 eligible specs have no outcome and no new version in over three years.
 
-The follow-up below tests the first point from a different starting clock.
+Follow-up 1 below tests the first point from a different starting clock.
 
 ## Status strings and caveats
 
 - The raw status histogram is in the results. Three strings fell outside the pre-registered
   families and were treated as OTHER (not an ending): "Draft Note" (2,146 versions), "Draft
-  Registry" (69) and "Statement" (3). Draft Note and Statement are on the Note track. The
-  follow-up re-runs P1-P3 with them counted as endings.
+  Registry" (69) and "Statement" (3). Draft Note and Statement are on the Note track.
+  Follow-up 1 re-runs P1-P3 with them counted as endings (no verdict changes).
 - P6 is an upper bound on specs that never became a Recommendation. A live check shows
   `geolocation` was a Recommendation from 2022-09-01 until a revision went back to CR on
-  2026-03-26, and the P6 definition counts it. The follow-up counts only specs that never had
-  a Recommendation.
+  2026-03-26, and the P6 definition counts it. Follow-up 1 counts only specs that never had
+  a Recommendation (65 of the 70).
 - Old versions often carry rec-track = false even on specs that later became
   Recommendations (8 of 56 first versions in the 1990s are flagged, against 198 of 245 in the
   2020s). That is why cohort A also counts any spec with a CR, PR or REC version.
@@ -82,12 +82,51 @@ first CR 2003-05-14, Recommendation 2011-06-07), webdatabase (Retired 2010-11-18
 after its first draft) and user-timing (first CR 2021-12-02, latest a CR Draft of
 2026-03-11, censored) all match the job's records.
 
-## Follow-up 1 (pre-registered, queued)
+## Follow-up 1: time in CR (pre-registered, graded)
 
-`followups/cr-time/` holds the pre-registration and code for G1-G3: a strict "never a
-Recommendation" CR-forever count, P1-P3 with Note-track drafts counted as endings, and the
-share of specs reaching Recommendation within three years of their first CR, 2011-2015
-against September 2020 to September 2023. Results will be added here.
+`followups/cr-time/PREREG.md` was published here before the job ran. The job reused run 1's
+code and cached download (snapshot 2026-10-30, confirmed identical), ran once in a sealed
+container with its 9 unit tests passing first, and wrote `results/followup1-summary.json`.
+
+| | Prediction | Measured | Verdict |
+|---|---|---|---|
+| G1 | Of run 1's 70 "CR forever" specs, at least 40 never had a Recommendation | 65 (5 went back to CR after one: geolocation, owl-time, payment-request, ttml2, vibration) | HELD |
+| G2 | P1-P3 verdicts unchanged with "Draft Note" and "Statement" counted as endings | HELD, HELD, FAILED (unchanged) | HELD |
+| G3 | Share reaching REC within 3 years of the first CR: first CR Sep 2020 - Sep 2023 lower than 2011-2015 by more than 0.10 | 50.0% (16 of 32) vs 67.5% (83 of 123) | HELD, but see below |
+
+How blind: G1 and G3 were partly informed (run 1's results had been seen; no statistic
+starting from the first CR had). G2 is a robustness check.
+
+What it says:
+
+- 65 specs have been in CR for three years or more and have never been a Recommendation.
+  They include CSS Flexbox, CSS Grid, Service Workers, Media Capture and Streams, Resource
+  Timing, Referrer Policy and WebXR. "CR forever" is real, and run 1's count of 70 was only
+  slightly inflated.
+- Counting Note-track drafts as endings does not change any run-1 verdict.
+- Specs that entered CR under the 2020 Process reached Recommendation within three years less
+  often: half, against about two thirds for 2011-2015 entrants. The gap passed the
+  pre-registered 0.10 bar, but the new cohort is only 32 specs. A two-proportion z-test (not
+  pre-registered, computed by hand) gives z of about 1.8, two-sided p of about 0.07. Read it
+  as a suggestive drop, not a settled one.
+- None of the 32 new entrants ended as a Note or Retired within three years, against 8.9%
+  (11 of 123) of the old ones. The share reaching REC within one year fell from 38.2% to
+  25.0%.
+
+Exploratory (not pre-registered):
+
+- Far fewer specs enter CR, and specs in CR are republished far more often. First CRs per
+  year averaged 24.8 in 2011-2015 and 11.4 in 2021-2025. CR publications per year never
+  exceeded 69 before 2020, and reached 376 in 2024, 353 in 2025 and 414 so far in 2026,
+  almost all CR Drafts.
+- Together with run 1 (P3 failed, P5 held), this suggests the halving in new
+  Recommendations comes mainly from fewer specs entering CR, and partly from slower
+  conversion once there. These sample sizes cannot cleanly separate the two.
+
+Limits: the 2014-2015 Processes and the 2020 Patent Policy change overlap the comparison, and
+the new cohort sits in the COVID years. Live checks on 2026-10-30: css-flexbox-1 (first CR
+2012-09-18, never a Recommendation, latest a CR Draft of 2025-10-14) and webnn (first CR
+Snapshot 2023-03-30, in the new cohort, no Recommendation) match the job's records.
 
 ## Nearest prior work
 
@@ -108,6 +147,7 @@ cohort study of W3C /TR outcomes with a before/after test of the 2020 Process.
 
     python -m unittest -v
     python job.py --data-dir ./data --out-dir ./out --allow-net
+    python followups/cr-time/cr_job.py --data-dir ./data --out-dir ./out-cr --allow-net
 
 Standard library only, Python 3.10 or newer. The download takes about 15 minutes at the
 built-in polite pace.

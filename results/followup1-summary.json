@@ -1,0 +1,529 @@
+{
+  "data_source": "https://api.w3.org/specifications",
+  "metrics": {
+    "G1": {
+      "loose_count": 70,
+      "returned_from_rec": [
+        "geolocation",
+        "owl-time",
+        "payment-request",
+        "ttml2",
+        "vibration"
+      ],
+      "strict": [
+        "SVG2",
+        "accelerometer",
+        "adapt-symbols",
+        "audio-output",
+        "beacon",
+        "compositing-1",
+        "core-aam-1.2",
+        "css-backgrounds-3",
+        "css-break-3",
+        "css-cascade-4",
+        "css-cascade-5",
+        "css-color-4",
+        "css-color-adjust-1",
+        "css-conditional-3",
+        "css-conditional-4",
+        "css-counter-styles-3",
+        "css-display-3",
+        "css-easing-1",
+        "css-flexbox-1",
+        "css-grid-1",
+        "css-grid-2",
+        "css-images-3",
+        "css-masking-1",
+        "css-multicol-1",
+        "css-paint-api-1",
+        "css-scroll-snap-1",
+        "css-scrollbars-1",
+        "css-shapes-1",
+        "css-speech-1",
+        "css-syntax-3",
+        "css-text-3",
+        "css-text-decor-3",
+        "css-transforms-1",
+        "css-values-3",
+        "css-variables-1",
+        "css-view-transitions-1",
+        "css-will-change-1",
+        "css-writing-modes-4",
+        "generic-sensor",
+        "geometry-1",
+        "gyroscope",
+        "mediacapture-streams",
+        "mediaqueries-4",
+        "mixed-content",
+        "orientation-event",
+        "performance-timeline-1",
+        "presentation-api",
+        "referrer-policy",
+        "remote-playback",
+        "resource-timing",
+        "secure-contexts",
+        "secure-payment-confirmation",
+        "service-workers",
+        "trace-context-2",
+        "upgrade-insecure-requests",
+        "user-timing",
+        "webnn",
+        "webrtc-identity",
+        "webrtc-priority",
+        "webrtc-stats",
+        "webvtt1",
+        "webxr",
+        "webxr-ar-module-1",
+        "xforms-basic",
+        "xmlschema-ref"
+      ],
+      "strict_count": 65
+    },
+    "G2": {
+      "run1_verdicts": {
+        "P1": "HELD",
+        "P2": "HELD",
+        "P3": "FAILED"
+      },
+      "s2_metrics": {
+        "P1": {
+          "cif_rec_10y": 0.44758064516129004,
+          "n": 496
+        },
+        "P2": {
+          "cif_end_10y": 0.30846774193548365,
+          "n": 496
+        },
+        "P3": {
+          "A": {
+            "new_2017_2021": {
+              "CR": 0.14705882352941177,
+              "REC": 0.2426470588235294,
+              "hist": {
+                "CR": 20,
+                "END": 11,
+                "REC": 33,
+                "WD": 72
+              },
+              "n": 136
+            },
+            "old_2010_2014": {
+              "CR": 0.13392857142857142,
+              "REC": 0.25,
+              "hist": {
+                "CR": 30,
+                "END": 62,
+                "PR": 3,
+                "REC": 56,
+                "WD": 73
+              },
+              "n": 224
+            }
+          },
+          "B": {
+            "new_2017_2021": {
+              "CR": 0.10204081632653061,
+              "REC": 0.1683673469387755,
+              "hist": {
+                "CR": 20,
+                "END": 59,
+                "REC": 33,
+                "WD": 84
+              },
+              "n": 196
+            },
+            "old_2010_2014": {
+              "CR": 0.10989010989010989,
+              "REC": 0.20512820512820512,
+              "hist": {
+                "CR": 30,
+                "END": 97,
+                "PR": 3,
+                "REC": 56,
+                "WD": 87
+              },
+              "n": 273
+            }
+          }
+        }
+      },
+      "s2_verdicts": {
+        "P1": "HELD",
+        "P2": "HELD",
+        "P3": "FAILED"
+      }
+    },
+    "G3": {
+      "new": {
+        "end_3y": 0.0,
+        "excluded_prior_rec": 0,
+        "n": 32,
+        "rec_1y": 0.25,
+        "rec_2y": 0.4375,
+        "rec_3y": 0.5,
+        "window": [
+          "2020-09-15",
+          "2023-09-30"
+        ]
+      },
+      "old": {
+        "end_3y": 0.08943089430894309,
+        "excluded_prior_rec": 1,
+        "n": 123,
+        "rec_1y": 0.3821138211382114,
+        "rec_2y": 0.5447154471544715,
+        "rec_3y": 0.6747967479674797,
+        "rec_5y": 0.6991869918699187,
+        "window": [
+          "2011-01-01",
+          "2015-12-31"
+        ]
+      }
+    },
+    "G3_s2": {
+      "new": {
+        "end_3y": 0.0,
+        "excluded_prior_rec": 0,
+        "n": 32,
+        "rec_1y": 0.25,
+        "rec_2y": 0.4375,
+        "rec_3y": 0.5,
+        "window": [
+          "2020-09-15",
+          "2023-09-30"
+        ]
+      },
+      "old": {
+        "end_3y": 0.08943089430894309,
+        "excluded_prior_rec": 1,
+        "n": 123,
+        "rec_1y": 0.3821138211382114,
+        "rec_2y": 0.5447154471544715,
+        "rec_3y": 0.6747967479674797,
+        "rec_5y": 0.6991869918699187,
+        "window": [
+          "2011-01-01",
+          "2015-12-31"
+        ]
+      }
+    },
+    "by_t0_year_cohort_a": {
+      "1995": {
+        "REC": 2,
+        "n": 2
+      },
+      "1996": {
+        "REC": 2,
+        "n": 2
+      },
+      "1997": {
+        "PR": 1,
+        "REC": 8,
+        "WD": 3,
+        "n": 12
+      },
+      "1998": {
+        "CR": 1,
+        "END": 2,
+        "REC": 7,
+        "n": 10
+      },
+      "1999": {
+        "CR": 2,
+        "REC": 11,
+        "WD": 10,
+        "n": 23
+      },
+      "2000": {
+        "CR": 2,
+        "END": 1,
+        "REC": 6,
+        "WD": 1,
+        "n": 10
+      },
+      "2001": {
+        "CR": 4,
+        "END": 2,
+        "REC": 10,
+        "WD": 7,
+        "n": 23
+      },
+      "2002": {
+        "CR": 4,
+        "END": 4,
+        "REC": 19,
+        "WD": 8,
+        "n": 35
+      },
+      "2003": {
+        "CR": 1,
+        "REC": 3,
+        "WD": 11,
+        "n": 15
+      },
+      "2004": {
+        "CR": 5,
+        "END": 4,
+        "REC": 10,
+        "WD": 4,
+        "n": 23
+      },
+      "2005": {
+        "CR": 5,
+        "END": 1,
+        "REC": 5,
+        "WD": 5,
+        "n": 16
+      },
+      "2006": {
+        "CR": 3,
+        "END": 12,
+        "REC": 8,
+        "WD": 12,
+        "n": 35
+      },
+      "2007": {
+        "END": 4,
+        "PR": 1,
+        "REC": 13,
+        "WD": 7,
+        "n": 25
+      },
+      "2008": {
+        "CR": 1,
+        "END": 5,
+        "PR": 1,
+        "REC": 20,
+        "WD": 13,
+        "n": 40
+      },
+      "2009": {
+        "CR": 6,
+        "END": 9,
+        "PR": 9,
+        "REC": 16,
+        "WD": 10,
+        "n": 50
+      },
+      "2010": {
+        "CR": 3,
+        "END": 12,
+        "REC": 10,
+        "WD": 7,
+        "n": 32
+      },
+      "2011": {
+        "CR": 4,
+        "END": 8,
+        "REC": 14,
+        "WD": 17,
+        "n": 43
+      },
+      "2012": {
+        "CR": 7,
+        "END": 17,
+        "PR": 1,
+        "REC": 12,
+        "WD": 24,
+        "n": 61
+      },
+      "2013": {
+        "CR": 5,
+        "END": 17,
+        "PR": 1,
+        "REC": 4,
+        "WD": 13,
+        "n": 40
+      },
+      "2014": {
+        "CR": 11,
+        "END": 8,
+        "PR": 1,
+        "REC": 16,
+        "WD": 12,
+        "n": 48
+      },
+      "2015": {
+        "CR": 7,
+        "END": 13,
+        "PR": 1,
+        "REC": 9,
+        "WD": 21,
+        "n": 51
+      },
+      "2016": {
+        "CR": 7,
+        "END": 8,
+        "PR": 1,
+        "REC": 14,
+        "WD": 12,
+        "n": 42
+      },
+      "2017": {
+        "CR": 3,
+        "END": 3,
+        "REC": 8,
+        "WD": 10,
+        "n": 24
+      },
+      "2018": {
+        "CR": 4,
+        "END": 4,
+        "REC": 7,
+        "WD": 13,
+        "n": 28
+      },
+      "2019": {
+        "CR": 4,
+        "OTHER": 1,
+        "REC": 6,
+        "WD": 11,
+        "n": 22
+      },
+      "2020": {
+        "CR": 2,
+        "OTHER": 1,
+        "REC": 5,
+        "WD": 16,
+        "n": 24
+      },
+      "2021": {
+        "CR": 7,
+        "END": 2,
+        "REC": 7,
+        "WD": 22,
+        "n": 38
+      }
+    },
+    "cr_publications_by_year": {
+      "2000": {
+        "Candidate Recommendation Snapshot": 12
+      },
+      "2001": {
+        "Candidate Recommendation Snapshot": 6
+      },
+      "2002": {
+        "Candidate Recommendation Snapshot": 20
+      },
+      "2003": {
+        "Candidate Recommendation Snapshot": 21
+      },
+      "2004": {
+        "Candidate Recommendation Snapshot": 12
+      },
+      "2005": {
+        "Candidate Recommendation Snapshot": 8
+      },
+      "2006": {
+        "Candidate Recommendation Snapshot": 22
+      },
+      "2007": {
+        "Candidate Recommendation Snapshot": 27
+      },
+      "2008": {
+        "Candidate Recommendation Snapshot": 15
+      },
+      "2009": {
+        "Candidate Recommendation Snapshot": 39
+      },
+      "2010": {
+        "Candidate Recommendation Snapshot": 11
+      },
+      "2011": {
+        "Candidate Recommendation Snapshot": 28
+      },
+      "2012": {
+        "Candidate Recommendation Snapshot": 41
+      },
+      "2013": {
+        "Candidate Recommendation Snapshot": 38
+      },
+      "2014": {
+        "Candidate Recommendation Snapshot": 29
+      },
+      "2015": {
+        "Candidate Recommendation Snapshot": 36
+      },
+      "2016": {
+        "Candidate Recommendation Snapshot": 56
+      },
+      "2017": {
+        "Candidate Recommendation Snapshot": 56
+      },
+      "2018": {
+        "Candidate Recommendation Snapshot": 69
+      },
+      "2019": {
+        "Candidate Recommendation Snapshot": 46
+      },
+      "2020": {
+        "Candidate Recommendation Draft": 30,
+        "Candidate Recommendation Snapshot": 39
+      },
+      "2021": {
+        "Candidate Recommendation Draft": 99,
+        "Candidate Recommendation Snapshot": 17
+      },
+      "2022": {
+        "Candidate Recommendation Draft": 185,
+        "Candidate Recommendation Snapshot": 18
+      },
+      "2023": {
+        "Candidate Recommendation Draft": 143,
+        "Candidate Recommendation Snapshot": 21
+      },
+      "2024": {
+        "Candidate Recommendation Draft": 351,
+        "Candidate Recommendation Snapshot": 25
+      },
+      "2025": {
+        "Candidate Recommendation Draft": 341,
+        "Candidate Recommendation Snapshot": 12
+      },
+      "2026": {
+        "Candidate Recommendation Draft": 400,
+        "Candidate Recommendation Snapshot": 14
+      }
+    },
+    "first_cr_by_year": {
+      "2000": 11,
+      "2001": 6,
+      "2002": 16,
+      "2003": 19,
+      "2004": 11,
+      "2005": 9,
+      "2006": 16,
+      "2007": 17,
+      "2008": 12,
+      "2009": 29,
+      "2010": 7,
+      "2011": 20,
+      "2012": 35,
+      "2013": 31,
+      "2014": 21,
+      "2015": 17,
+      "2016": 29,
+      "2017": 27,
+      "2018": 21,
+      "2019": 16,
+      "2020": 6,
+      "2021": 6,
+      "2022": 14,
+      "2023": 15,
+      "2024": 14,
+      "2025": 8,
+      "2026": 10
+    },
+    "n_specs_kept": 1715
+  },
+  "n_failed": 0,
+  "n_listed": 1721,
+  "snapshot_date": "2026-10-30",
+  "snapshot_matches_run1": true,
+  "verdicts": {
+    "G1": "HELD",
+    "G2": "HELD",
+    "G2_changed": [],
+    "G3": "HELD"
+  }
+}
