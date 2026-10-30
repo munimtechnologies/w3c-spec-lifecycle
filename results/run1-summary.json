@@ -1,0 +1,388 @@
+{
+  "complete": true,
+  "data_source": "https://api.w3.org/specifications",
+  "failed_sample": [],
+  "first_record": {
+    "date": "2003-05-12",
+    "rec-track": false,
+    "shortlink": "https://www.w3.org/TR/SMIL2-AuthExt/",
+    "status": "Note",
+    "title": "SMIL 2.0 Extension for Professional Multimedia Authoring - Preliminary Investigation",
+    "uri": "https://www.w3.org/TR/2003/NOTE-SMIL2-AuthExt-20030512/"
+  },
+  "metrics": {
+    "P1": {
+      "cif_rec_10y": 0.44758064516129004,
+      "n": 496
+    },
+    "P2": {
+      "cif_end_10y": 0.30846774193548365,
+      "n": 496
+    },
+    "P3": {
+      "A": {
+        "new_2017_2021": {
+          "CR": 0.14705882352941177,
+          "REC": 0.2426470588235294,
+          "hist": {
+            "CR": 20,
+            "END": 9,
+            "OTHER": 2,
+            "REC": 33,
+            "WD": 72
+          },
+          "n": 136
+        },
+        "old_2010_2014": {
+          "CR": 0.13392857142857142,
+          "REC": 0.25,
+          "hist": {
+            "CR": 30,
+            "END": 62,
+            "PR": 3,
+            "REC": 56,
+            "WD": 73
+          },
+          "n": 224
+        }
+      },
+      "B": {
+        "new_2017_2021": {
+          "CR": 0.10204081632653061,
+          "REC": 0.1683673469387755,
+          "hist": {
+            "CR": 20,
+            "END": 23,
+            "OTHER": 36,
+            "REC": 33,
+            "WD": 84
+          },
+          "n": 196
+        },
+        "old_2010_2014": {
+          "CR": 0.10989010989010989,
+          "REC": 0.20512820512820512,
+          "hist": {
+            "CR": 30,
+            "END": 97,
+            "PR": 3,
+            "REC": 56,
+            "WD": 87
+          },
+          "n": 273
+        }
+      }
+    },
+    "P4": {
+      "cr_other": 0,
+      "crd": 1519,
+      "crs": 107,
+      "ratio": 14.19626168224299
+    },
+    "P5": {
+      "mean_2015_2019": 15.2,
+      "mean_2021_2025": 7,
+      "rec_by_year": {
+        "1996": 4,
+        "1997": 3,
+        "1998": 7,
+        "1999": 7,
+        "2000": 3,
+        "2001": 13,
+        "2002": 7,
+        "2003": 10,
+        "2004": 22,
+        "2005": 9,
+        "2006": 4,
+        "2007": 17,
+        "2008": 11,
+        "2009": 20,
+        "2010": 20,
+        "2011": 17,
+        "2012": 17,
+        "2013": 25,
+        "2014": 24,
+        "2015": 16,
+        "2016": 6,
+        "2017": 26,
+        "2018": 17,
+        "2019": 11,
+        "2020": 10,
+        "2021": 6,
+        "2022": 4,
+        "2023": 10,
+        "2024": 3,
+        "2025": 12,
+        "2026": 4
+      }
+    },
+    "P6": {
+      "count": 70,
+      "sample": [
+        "SVG2",
+        "accelerometer",
+        "adapt-symbols",
+        "audio-output",
+        "beacon",
+        "compositing-1",
+        "core-aam-1.2",
+        "css-backgrounds-3",
+        "css-break-3",
+        "css-cascade-4",
+        "css-cascade-5",
+        "css-color-4",
+        "css-color-adjust-1",
+        "css-conditional-3",
+        "css-conditional-4",
+        "css-counter-styles-3",
+        "css-display-3",
+        "css-easing-1",
+        "css-flexbox-1",
+        "css-grid-1",
+        "css-grid-2",
+        "css-images-3",
+        "css-masking-1",
+        "css-multicol-1",
+        "css-paint-api-1",
+        "css-scroll-snap-1",
+        "css-scrollbars-1",
+        "css-shapes-1",
+        "css-speech-1",
+        "css-syntax-3",
+        "css-text-3",
+        "css-text-decor-3",
+        "css-transforms-1",
+        "css-values-3",
+        "css-variables-1",
+        "css-view-transitions-1",
+        "css-will-change-1",
+        "css-writing-modes-4",
+        "generic-sensor",
+        "geolocation"
+      ]
+    },
+    "S1": {
+      "P1": {
+        "cif_rec_10y": 0.4446680080482898,
+        "n": 497
+      },
+      "P2": {
+        "cif_end_10y": 0.30985915492957705,
+        "n": 497
+      },
+      "P3": {
+        "A": {
+          "new_2017_2021": {
+            "CR": 0.14492753623188406,
+            "REC": 0.2391304347826087,
+            "hist": {
+              "CR": 20,
+              "END": 9,
+              "OTHER": 2,
+              "REC": 33,
+              "WD": 74
+            },
+            "n": 138
+          },
+          "old_2010_2014": {
+            "CR": 0.1511111111111111,
+            "REC": 0.24,
+            "hist": {
+              "CR": 34,
+              "END": 63,
+              "PR": 3,
+              "REC": 54,
+              "WD": 71
+            },
+            "n": 225
+          }
+        },
+        "B": {
+          "new_2017_2021": {
+            "CR": 0.10101010101010101,
+            "REC": 0.16666666666666666,
+            "hist": {
+              "CR": 20,
+              "END": 23,
+              "OTHER": 36,
+              "REC": 33,
+              "WD": 86
+            },
+            "n": 198
+          },
+          "old_2010_2014": {
+            "CR": 0.12408759124087591,
+            "REC": 0.19708029197080293,
+            "hist": {
+              "CR": 34,
+              "END": 98,
+              "PR": 3,
+              "REC": 54,
+              "WD": 85
+            },
+            "n": 274
+          }
+        }
+      }
+    },
+    "by_decade": {
+      "1990s": {
+        "censored": 6,
+        "cohort_a": 49,
+        "end": 11,
+        "median_years_to_rec": 1.5195071868583163,
+        "n": 56,
+        "rec": 39
+      },
+      "2000s": {
+        "censored": 51,
+        "cohort_a": 272,
+        "end": 182,
+        "median_years_to_rec": 2.7405886379192332,
+        "n": 391,
+        "rec": 158
+      },
+      "2010s": {
+        "censored": 170,
+        "cohort_a": 391,
+        "end": 180,
+        "median_years_to_rec": 2.2039698836413417,
+        "n": 473,
+        "rec": 123
+      },
+      "2020s": {
+        "censored": 199,
+        "cohort_a": 200,
+        "end": 22,
+        "median_years_to_rec": 2.4106776180698155,
+        "n": 245,
+        "rec": 24
+      }
+    },
+    "dropped_subset_sample": [
+      "WCAG20-GATEWAY",
+      "WD-rdf-syntax",
+      "performance-timeline",
+      "png-1",
+      "xml-events",
+      "xmldsig-core"
+    ],
+    "excluded_reasons": {
+      "entry_not_wd": 550
+    },
+    "first_version_rec_track_by_decade": {
+      "1990s": {
+        "first_version_rec_track_true": 8,
+        "n": 56
+      },
+      "2000s": {
+        "first_version_rec_track_true": 211,
+        "n": 391
+      },
+      "2010s": {
+        "first_version_rec_track_true": 387,
+        "n": 473
+      },
+      "2020s": {
+        "first_version_rec_track_true": 198,
+        "n": 245
+      }
+    },
+    "n_cohort_a": 912,
+    "n_eligible": 1165,
+    "n_shared_uris": 114,
+    "n_specs_dropped_subset": 6,
+    "n_specs_empty": 0,
+    "n_specs_kept": 1715,
+    "n_specs_raw": 1721,
+    "n_versions_raw": 17756,
+    "stale_censored_3y": 146,
+    "status_hist": {
+      "Candidate Recommendation Draft": 1550,
+      "Candidate Recommendation Snapshot": 750,
+      "Draft Note": 2146,
+      "Draft Registry": 69,
+      "First Public Working Draft": 526,
+      "Last Call Working Draft": 582,
+      "Note": 1281,
+      "Proposed Edited Recommendation": 67,
+      "Proposed Recommendation": 385,
+      "Recommendation": 551,
+      "Retired": 335,
+      "Statement": 3,
+      "Working Draft": 9511
+    }
+  },
+  "n_failed": 0,
+  "n_listed": 1721,
+  "snapshot_date": "2026-10-30",
+  "spotcheck": {
+    "WCAG21": {
+      "event": "REC",
+      "first_cr": "2018-01-30",
+      "first_rec": "2018-06-05",
+      "latest_family": "REC",
+      "n_versions": 13,
+      "t0": "2017-02-28",
+      "time_days": 462
+    },
+    "css-color-3": {
+      "event": "REC",
+      "first_cr": "2003-05-14",
+      "first_rec": "2011-06-07",
+      "latest_family": "REC",
+      "n_versions": 14,
+      "t0": "1999-06-23",
+      "time_days": 4367
+    },
+    "html5": {
+      "event": "REC",
+      "first_cr": "2012-12-17",
+      "first_rec": "2014-10-28",
+      "latest_family": "END",
+      "n_versions": 20,
+      "t0": "2008-01-22",
+      "time_days": 2471
+    },
+    "user-timing": {
+      "event": null,
+      "first_cr": "2021-12-02",
+      "first_rec": null,
+      "latest_family": "CR",
+      "n_versions": 25,
+      "t0": "2019-03-05",
+      "time_days": 2796
+    },
+    "webdatabase": {
+      "event": "END",
+      "first_cr": null,
+      "first_rec": null,
+      "latest_family": "END",
+      "n_versions": 5,
+      "t0": "2009-04-23",
+      "time_days": 574
+    },
+    "webgpu": {
+      "event": null,
+      "first_cr": "2024-12-19",
+      "first_rec": null,
+      "latest_family": "CR",
+      "n_versions": 458,
+      "t0": "2021-05-18",
+      "time_days": 1991
+    }
+  },
+  "verdicts": {
+    "P1": "HELD",
+    "P2": "HELD",
+    "P3": "FAILED",
+    "P4": "HELD",
+    "P5": "HELD",
+    "P6": "HELD",
+    "S1_agrees": {
+      "P1": true,
+      "P2": true,
+      "P3": true
+    }
+  }
+}
