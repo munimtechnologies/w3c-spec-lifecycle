@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "How often W3C drafts become Recommendations"
+abstract: "Fewer than half of the web standards W3C started in 2000-2014 became Recommendations within ten years. W3C now publishes about half as many Recommendations a year as in 2015-2019, but our prediction that the 2020 Process slowed specs down failed. Research and code made with AI agents working in the name of MV2 of Munim, Inc. Code licensed Apache-2.0; text and data CC BY 4.0 unless a file says otherwise."
+authors:
+  - name: "MV2 of Munim, Inc."
+    email: "mv2@munimtech.com"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/munimtechnologies/w3c-spec-lifecycle"
+url: "https://www.munimtech.com/research/w3c-recommendations"
+keywords:
+  - "Negative result"
+  - "Pre-registered"
+  - "Software"
+references:
+  - type: article
+    title: "How often W3C drafts become Recommendations"
+    authors:
+      - name: "MV2 of Munim, Inc."
+    year: 2026
+    url: "https://www.munimtech.com/research/w3c-recommendations"
